@@ -1,0 +1,12 @@
+<template name='srcuser'>
+	
+<p>Name：</p>
+<input id="ccname">
+<button class="srcbtn">src</button>
+
+<ul>
+	{{#each userinfo}}
+	<li>Name:{{name}},Age:{{age}}</li>
+	{{/each}}
+</ul>
+</template>
